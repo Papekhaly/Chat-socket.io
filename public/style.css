@@ -1,0 +1,263 @@
+
+/* Fix user-agent */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  html, input {
+    font-family:
+      "HelveticaNeue-Light",
+      "Helvetica Neue Light",
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      "Lucida Grande",
+      sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+    word-wrap: break-word;
+  }
+  
+  /* Pages */
+  .open-more{
+    bottom:0px;
+    transition:2s;
+  }
+  
+  .pages {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .page {
+    height: 100%;
+    position: fixed;
+    width: 75%;
+    border:1px solid #FD8468;
+
+  }
+
+  /* Log_User */
+  .users{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: burlywood;
+    height: 100%; 
+    position: sticky; 
+    overflow: auto; 
+    float: right;
+  }
+  
+  .users li#numUsers {
+    background-color:green;
+    color: white;
+    
+  }
+  .users li#Userdis {
+    background-color: gray;
+    color: white;
+  }
+
+  .users li {
+    padding: 6px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(238, 242, 0);
+    color: black;
+    transition: all 0.5s;
+  }
+
+ /* .liste_users{
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #555;
+  }
+  */
+  
+  /* Login Page */
+  
+  .login.page.user {
+    background-color: #000;
+    bottom: 0px;
+    right: 0px;
+    height: 60%;
+    width: 30%;
+    
+    
+  }
+  .login.page {
+    background-color: #000;
+    
+    
+  }
+  
+  .login.page .form {
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+  
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  
+  .login.page .form .usernameInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  .login.page .title {
+    font-size: 200%;
+  }
+  
+  .login.page .usernameInput {
+    font-size: 200%;
+    letter-spacing: 3px;
+  }
+  
+  .login.page .title, .login.page .usernameInput {
+    color: #fff;
+    font-weight: 100;
+  }
+  
+  /* Chat page */
+  
+  .chat.page {
+    display: none;
+    height: 100%;
+    width: 75%;
+  }
+  .chat.page.user{
+
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    height: 60%;
+    cursor:auto;
+
+  }
+  .chatbox{
+    border: 10px solid #000;
+    bottom: 0px;
+  
+   
+
+  }
+
+.login.page.user {
+    
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    height: 60%;
+  }
+  
+  /* Font */
+  
+  .messages {
+    font-size: 150%;
+  }
+  
+  .inputMessage {
+    font-size: 100%;
+  }
+  
+  .log {
+    color: gray;
+    font-size: 70%;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid;
+    background-color: orange;
+  }
+  
+  /* Messages */
+  
+  .chatArea {
+    height: 100%;
+    padding-bottom: 60px;
+  }
+  
+  .messages {
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .message.typing .messageBody {
+    color: gray;
+  }
+  
+  .username {
+    font-weight: 700;
+    overflow: hidden;
+    padding-right: 15px;
+    text-align: right;
+  }
+  
+  /* Input */
+  
+  .inputMessage {
+    border: 7px solid #000;
+    bottom: 0px;
+    height: 40px;
+    left: 0;
+    outline: none;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  .users button#load {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    bottom: 0%;
+}
+
+
+#myframe{
+  height: 92%;
+  width: 100%;
+  bottom: 0px;
+}
+
+.dis li.conver{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}

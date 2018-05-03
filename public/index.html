@@ -1,0 +1,81 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+  </style>
+  <script type="text/javascript">
+
+    function openWindow(url, width, height, options, name) {
+      width = width ? width : 800;
+      height = height ? height : 600;
+      options = options ? options : 'resizable=yes';
+      name = name ? name : 'openWindow';
+      window.open(
+        url,
+        name,
+        'screenX=' + (screen.width - width) / 2 + ',screenY=' + (screen.height - height) / 2 + ',width=' + width + ',height=' + height + ',' + options
+      )
+    }
+  </script>
+</head>
+
+<body>
+  <ul class="navbar">
+    <div class="navbarLi">
+      <li>
+        <a href="#">Blog</a>
+      </li>
+      <li>
+        <a href="#news">News</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </div>
+  </ul>
+
+  
+  <iframe id="myframe" src="chat_user.html">
+      
+  </iframe>
+ 
+  
+  <script src="components/rivets/dist/rivets.bundled.min.js"></script>
+  <script src="components/jquery/dist/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="admin.js"></script>
+</body>
+
+</html>
