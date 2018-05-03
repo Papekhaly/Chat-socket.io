@@ -1,0 +1,12 @@
+{
+  "name": "socket-chat",
+  "version": "0.0.1",
+  "description": "chat nodejs",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.0",
+    "socketio-auth": "^0.1.0"
+  }
+}
