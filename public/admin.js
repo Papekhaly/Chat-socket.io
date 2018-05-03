@@ -1,4 +1,5 @@
 
+
 $(function () {
   var FADE_TIME = 150; // ms
   var TYPING_TIMER_LENGTH = 400; // ms
@@ -53,7 +54,7 @@ $(function () {
       socket.emit('add user', username);
 
       socket.on('newusr', function (username) {
-        $('.users').append('<li id= "numUsers">' + users + '</li>');
+        $('.users').append('<li id= "numUsers">' + username + '</li>');
       });
     }
   }
@@ -299,3 +300,4 @@ $(function () {
   });
 
 });
+
